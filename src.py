@@ -15,7 +15,7 @@ soup = BeautifulSoup(html,"html.parser")
 
 # print(soup.find_all("img")) # returns all images in that page
 
-image1,image2,image3 = soup.find_all("img")
+# image1,image2,image3 = soup.find_all("img")
 
 # print(image1.name) # prints the img tag
 # print(image1["src"]) # accessing the tag attributes
